@@ -1,19 +1,28 @@
-# jsonlint.com
+Install dependencies
 
-Source code for [jsonlint.com](http://jsonlint.com)
+```
+npm install
+```
+Install [http-server](https://www.npmjs.com/package/http-server") if desired
 
-[![devDependency Status](https://img.shields.io/david/dev/circlecell/jsonlintdotcom.svg)](https://david-dm.org/circlecell/jsonlintdotcom#info=devDependencies)
-[![Dependency Status](https://img.shields.io/david/circlecell/jsonlintdotcom.svg)](https://david-dm.org/circlecell/jsonlintdotcom)
+```
+npm install http-server
+```
 
-## Front-end libraries are used
-- [VanillaJS :)](http://vanilla-js.com/)
-- [CodeMirror](https://www.npmjs.com/package/codemirror)
-- [jsonlint](https://www.npmjs.com/package/jsonlint)
-- [js-beautify](https://www.npmjs.com/package/js-beautify)
-- [JSON.minify](https://github.com/getify/JSON.minify/tree/javascript)
-- [SystemJS](https://github.com/systemjs/systemjs)
+Gulp it
 
-## Building tools are used
-- [Gulp](http://gulpjs.com/)
-- [PostCSS](https://github.com/postcss/postcss)
-- [SystemJS Builder](https://github.com/systemjs/builder)
+```
+gulp
+```
+
+Get it running
+
+```
+http-server -p 5555
+```
+
+Ping in a browser
+
+```
+http://localhost:5555
+```
