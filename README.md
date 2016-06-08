@@ -2,7 +2,7 @@ An implementation of <a href="https://github.com/circlecell/jsonlintdotcom">json
 
 To build (npm 4 or greater)
 ```
-npm i electron-builder
+npm i electron-builder -g
 mkdir build && cd build
 electron-packager ../ --all
 ```
