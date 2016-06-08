@@ -1,0 +1,9 @@
+.idea/compiler.xml
+.idea/jslint.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/copyright/profiles_settings.xml
+node_modules/*
+src/*
+build/*
